@@ -1,0 +1,70 @@
+.red__star {
+  color: red;
+}
+.active {
+  color: ​#d9840f;
+}
+.grid__form {
+  display: grid;
+  grid-template-columns: 55% 40%;
+  gap: 5%;
+}
+
+.btns_flex {
+  margin-top: 4rem;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+.info__text {
+  font-size: 0.8rem;
+  color: #6c6ca3;
+  margin-bottom: 1.5rem;
+}
+.cancel {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.card_details {
+  display: grid;
+  grid-template-columns: 50% 25% 15%;
+  gap: 5%;
+}
+.card_header {
+  width: 100%;
+  padding: 1rem;
+  margin-left: -0.05rem;
+  overflow: hidden;
+  border-radius: 1rem 1rem 0 0;
+
+  background-color: rgb(34, 34, 249);
+  text-align: center;
+}
+.card_header li {
+  width: 90%;
+  color: white;
+}
+.card_content {
+  width: 85%;
+  margin: 3rem auto;
+}
+.card {
+  margin-top: 2rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card_content ul {
+  display: flex;
+}
+.card_content li {
+  color: rgb(50, 50, 124);
+}
+.total {
+  border: 1px solid rgb(50, 50, 124);
+  border-radius: 0.5rem;
+  justify-content: center;
+  padding: 0.5rem 0.1rem;
+}
